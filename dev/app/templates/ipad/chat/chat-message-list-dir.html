@@ -1,0 +1,7 @@
+<ion-list class="chat-message-list im-chat-message-list">
+  <div class="padding text-center" ng-if="items.length == 0">
+    <span>{{'No messages.' | translate}}</span>
+  </div>
+  <ion-refresher pulling-text="Pull down to load old messages" on-refresh="loadMore()"></ion-refresher>
+  <chat-message-item-dir ng-repeat="item in items"></chat-message-item-dir>
+  <ion-list>

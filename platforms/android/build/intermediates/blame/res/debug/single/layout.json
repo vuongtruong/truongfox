@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_list_section_header.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_list_section_header.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_placepickerfragment.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_placepickerfragment.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_image.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_image.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_search_box.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_search_box.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_checkbox.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_checkbox.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_list_row.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_list_row.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_activity_circle_row.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_activity_circle_row.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_frame.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\sidebar_frame.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_secondary_frame.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\sidebar_secondary_frame.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_title_bar.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_title_bar.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_usersettingsfragment.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_menu_submenu.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\sidebar_menu_submenu.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_friendpickerfragment.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_friendpickerfragment.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_menu_group.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\sidebar_menu_group.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_activity_layout.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_placepickerfragment_list_row.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_placepickerfragment_list_row.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_menu_item.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\sidebar_menu_item.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android\\MenuLib\\unspecified\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_picker_title_bar_stub.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_search_bar_layout.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\layout\\com_facebook_search_bar_layout.xml"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_viewer.xml",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\layout\\sidebar_viewer.xml"
+    }
+]

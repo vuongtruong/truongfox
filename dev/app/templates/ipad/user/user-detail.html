@@ -1,0 +1,12 @@
+<div ui-view="tabContent">
+
+</div>
+<div class="tabs tabs-footer" ng-if="dataReady">
+    <a class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath.indexOf('user_about') == -1 && currentPath.indexOf('user_friends') == -1 && currentPath.indexOf('user_photos') == -1 && currentPath.indexOf('user_video') == -1 && currentPath.indexOf('user_ultimatevideo') == -1 && currentPath.indexOf('user_points') == -1}" ng-href="#/app/user/{{iUserId}}">{{'Activity' | translate}}</a>
+    <a class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath == '/app/user_about/' + iUserId}" ng-href="#/app/user_about/{{iUserId}}">{{'Info' | translate}}</a>
+    <a class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath == '/app/user_friends/' + iUserId}" ng-href="#/app/user_friends/{{iUserId}}">{{'Friends' | translate}}</a>
+    <a class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath == '/app/user_photos/' + iUserId}" ng-href="#/app/user_photos/{{iUserId}}">{{'Photos' | translate}}</a>
+    <a class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath == '/app/user_videos/' + iUserId}" ng-href="#/app/user_videos/{{iUserId}}" ng-if="item.bCanViewVideo">{{'Videos' | translate}}</a>
+    <a class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath == '/app/user_ultimatevideo/' + iUserId}" ng-href="#/app/user_ultimatevideo/{{iUserId}}">{{'Ultimate Videos' | translate}}</a>
+    <a ng-show="bAllowShowPoints" class="tab-item" nav-transition="none" ng-class="{'tab-item-active': currentPath == '/app/user_points/' + iUserId}" ng-href="#/app/user_points/{{iUserId}}">{{'Activity Points' | translate}}</a>
+</div>

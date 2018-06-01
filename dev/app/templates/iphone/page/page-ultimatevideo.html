@@ -1,0 +1,9 @@
+<ion-header-bar align-title="center" class="bar-positive">
+    <button class="button icon-left ion-ios-arrow-left button-clear" back-dir ng-bind-html="getPrevPageTitle()"></button>
+    <h1 class="title" translate>Ultimate Videos</h1>
+    <a ng-if="item.bCanShareUltimatevideo" class="button button-clear icon ion-ios-plus-empty" ng-href="#/app/ultimatevideo/add/video/{{item.getType()}}/{{item.getId()}}"></a>
+</ion-header-bar>
+<ultimatevideo-search-video-dir></ultimatevideo-search-video-dir>
+<ion-content class="has-header has-footer">
+    <ultimatevideo-list-video-dir></ultimatevideo-list-video-dir>
+</ion-content>

@@ -1,0 +1,20 @@
+<ion-modal-view ng-controller="ChatDetailCtrl">
+  <ion-header-bar align-title="center" class="bar-positive">
+    <button class="button icon-left ion-ios-arrow-left button-clear" ng-click="hideChat()"></button>
+    <h1 class="title" ng-bind-html="chatObj.getTitle()"></h1>
+    <div class="buttons">
+      <button class="button button-clear ion-ios-search" ng-click="showSearchMessagePopover($event)"></button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="has-header has-footer" delegate-handle="chat-message-list">
+    <chat-message-list-dir></chat-message-list-dir>
+  </ion-content>
+  <form keyboard-attach class="bar bar-footer item-input-inset ynchat-form-message" ng-submit="onSendMessage()">
+    <i class="icon ion-happy-outline" ng-click="showSmilePopover($event)" ng-if="bIMTwemojiEnable"></i>
+    <i class="icon ion-image" ng-click="onAddPhoto()" ng-if="bIMAttachmentEnable"></i>
+    <div class="item-input-wrapper">
+      <input type="text" placeholder="{{'Your Message' | translate}}" ng-model="messageData.sMessage" />
+    </div>
+    <input type="submit" class="button button-send" ng-class="{disabled: (!(messageData.sMessage.trim() || attachment_id.link)) || bNoConnection}" value="" />
+  </form>
+</ion-modal-view>

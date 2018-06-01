@@ -1,0 +1,17 @@
+<div class="list chat-list">
+  <div class="padding text-center" ng-if="noItems && listData.sSearch">
+    <span>{{'No contacts found.' | translate}}</span>
+  </div>
+  <div class="padding text-center" ng-if="noItems && !listData.sSearch">
+    <span>{{'No friends available for chatting.' | translate}}</span>
+  </div>
+  <div class="item item-avatar item-icon-right" ng-class="{'item-stable': item.isUnread()}" 
+  collection-repeat="item in items|filter:{bIsHidden: false}" item-height="64px" ng-click="showChat(item)" menu-close>
+    <img ng-src="{{item.getImageSrc()}}" height="50" />
+    <h2>
+      {{item.getTitle()}}
+      <span class="im-number-new-right" ng-if="item.iTotalNew > 0">{{item.iTotalNew}}</span>
+    </h2>
+    <span class="im-is-online-left" ng-if="item.getStatus() == 'online'"></span>
+  </div>
+</div>

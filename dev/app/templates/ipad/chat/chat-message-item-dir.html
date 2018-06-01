@@ -1,0 +1,35 @@
+<div class="item item-text-wrap small-chat" ng-class="{'item-avatar item-icon-right': !item.isViewer(), 'text-right item-icon-left': item.isViewer()}" on-hold="onHoldItem()">
+    <img ng-src="{{chatObj.getImageSrc()}}" height="50" href-dir url="{{item.getSenderUrl()}}" ng-if="!item.isViewer()"/>
+    <div class="item-chat">
+        <div class="item-chat-group">
+            <div class="" ng-class="{'item-stable': !item.isViewer()}">
+                <div ng-if="!item.isDeleted()">
+                    <!--Link-->
+                    <div ng-if="item.hasLink()" class="chat-link-preview" href-dir external-url="{{ item.link.link }}">
+                        <div class="preview-content">
+                            <img ng-src="{{item.link.image}}" ng-if="item.link.image">
+                            <h4 ng-bind-html="item.link.title"></h4>
+                            <p ng-bind-html="item.link.description" class="chat-attach-desc"></p>
+                        </div>
+                    </div>
+                    <!--Attachment-->
+                    <div ng-if="item.hasAttachment()" class="chat-attachment-preview">
+                        <div class="preview-content">
+                            <img ng-if="item.attachment.is_image" ng-src="{{item.attachment.thumb}}" photo-thumb-dir img-src="{{item.attachment.path}}">
+                            <a ng-if="!item.attachment.is_image" href-dir external-url="{{ item.attachment.path }}">
+                                <b>{{item.attachment.file_name}}</b>
+                            </a>
+                        </div>
+                    </div>
+                    <!--Message-->
+                    <p ng-html-compile="item.getMessage()" class="chat-message-body"></p>
+                </div>
+                <div ng-if="item.isDeleted()">
+                    <p class="chat-message-body deleted">{{ 'This message has been deleted.' | translate }}</p>
+                </div>
+                <!--Time-->
+                <p class="item-note">{{item.fromNow()}}</p>
+            </div>
+        </div>
+    </div>
+</div>

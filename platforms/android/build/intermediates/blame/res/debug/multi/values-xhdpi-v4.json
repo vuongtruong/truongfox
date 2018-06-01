@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    }
+]

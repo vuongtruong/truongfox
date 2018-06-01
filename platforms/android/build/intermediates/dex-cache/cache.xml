@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_6abda23a02f7135d369c0037a7150447b8b1d752.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_32cf8bac36fe696246d9597fdd56f8b96ea51103.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="78de1664ec1f8a7a4089823508f162ff3bf1534c">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-release_9a8f17be09671ddf541c246d78ffbd30840941d1.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\libs\gcm.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\gcm_a430cda453f8bbb2699b5aa112c00b8b8f77d7a3.jar" />
+    </item>
+    <item
+        jar="E:\Android\android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_10034ee0d7cb9d8aac98e0f3b992f6d67734b7e6.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_bac35f49243b3eb66b429c33607f2249c3d24468.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\android\MenuLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="7d8c36b3adbd9322ae156792911c5464b83152af">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\android-MenuLib-unspecified_ed62d6e05a8793342d2bb8060720ae8c428d705c.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.1_0f23d6aac8fe190d35e62f6f038a988be0f2082c.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\android\VolleyLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="adc5aa31581cf05a8155c2af2523ebcc8825b1bd">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\android-VolleyLib-unspecified_d7e3bfccdbe2f890db972e6eb3a716a459ad6ba3.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\android.com.phonegap.plugins.facebookconnect\FacebookLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="5e433490229e30bdf7200f1855d93abe8b7833ed">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\FacebookLib-unspecified-release_08eed7816b8e621a105858f523a0ce43ce0e016e.jar" />
+    </item>
+    <item
+        jar="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\exploded-aar\android.com.phonegap.plugins.facebookconnect\FacebookLib\unspecified\release\jars\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="94b8d452c087ca0991499438268441199e160553">
+        <dex dex="I:\wamp\www\2017\fox4.07\platforms\android\build\intermediates\pre-dexed\debug\bolts-android-1.1.2_87822a40fb5a99811828972d19dce6ac16dc24f2.jar" />
+    </item>
+
+</items>

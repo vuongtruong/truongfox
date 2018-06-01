@@ -1,0 +1,14 @@
+<ion-popover-view class="chat-search-message-popover" ng-controller="ChatSearchMessageCtrl">
+    <ion-header-bar>
+        <div class="item-input-inset no-padding">
+            <label class="item-input-wrapper">
+                <input type="text" placeholder="{{'Enter search text' | translate}}"  ng-model="searchText" ng-change="searchMessage()">
+            </label>
+        </div>
+    </ion-header-bar>
+    <ion-content class="chat-message-list im-chat-message-list" delegate-handle="chat-search-result">
+        <div class="padding text-center" ng-if="noItems" translate>No messages found.</div>
+        <chat-message-item-dir ng-repeat="item in items"></chat-message-item-dir>
+        <ion-infinite-scroll distance="62px" ng-if="canLoadMore" on-infinite="loadMore()"></ion-infinite-scroll>
+    </ion-content>
+</ion-popover-view>

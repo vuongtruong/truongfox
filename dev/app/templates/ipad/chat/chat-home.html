@@ -1,0 +1,34 @@
+<ion-view class="chat-home-ipad">
+  <ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-clear icon ion-navicon" toggle-left-dir></button>
+    <h1 class="title has-notification">
+      <span class="header-notification"><header-stat-dir></header-stat-dir></span>
+    </h1>
+    <div class="buttons">
+      <button class="button button-clear ion-ios-search" ng-click="showSearchMessagePopover($event)"></button>
+      <button class="button icon-right ion-ios-more button-clear" ng-click="onChatSetting()"></button>
+    </div>
+  </ion-header-bar>
+  <chat-search-dir></chat-search-dir>
+  <div class="content-column row">
+    <div class="col has-footer">
+      <ion-content class="has-header">
+        <chat-list-dir></chat-list-dir>
+      </ion-content>
+    </div>
+    <div class="col has-footer" ng-if="chatObj">
+      <ion-content class="has-footer" delegate-handle="chat-message-list">
+        <chat-message-list-dir></chat-message-list-dir>
+      </ion-content>
+      <form keyboard-attach class="bar bar-footer item-input-inset ynchat-form-message" ng-submit="onSendMessage()">
+        <i class="icon ion-happy-outline" ng-click="showSmilePopover($event)" ng-if="bIMTwemojiEnable"></i>
+        <i class="icon ion-image" ng-click="onAddPhoto()" ng-if="bIMAttachmentEnable"></i>
+        <div class="item-input-wrapper">
+          <!--<textarea class="input-message" rows="1" placeholder="{{'Your Message' | translate}}" ng-model="messageData.sMessage" ng-trim="false"></textarea>-->
+          <input type="text" placeholder="{{'Your Message' | translate}}" ng-model="messageData.sMessage" />
+        </div>
+        <input type="submit" class="button button-send" ng-class="{disabled: (!(messageData.sMessage.trim() || attachment_id.link)) || bNoConnection}" value="" />
+      </form>
+    </div>
+  </div>
+</ion-view>

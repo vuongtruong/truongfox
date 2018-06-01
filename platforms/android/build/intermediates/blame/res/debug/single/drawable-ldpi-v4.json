@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\com_facebook_close.png",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\exploded-aar\\android.com.phonegap.plugins.facebookconnect\\FacebookLib\\unspecified\\release\\res\\drawable-ldpi-v4\\com_facebook_close.png"
+    },
+    {
+        "merged": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "I:\\wamp\\www\\2017\\fox4.07\\platforms\\android\\res\\drawable-ldpi\\icon.png"
+    }
+]

@@ -1,0 +1,14 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-pane ion-side-menu-content>
+        <ion-nav-view name="menuContent" animation="slide-left-right">
+        </ion-nav-view>
+    </ion-pane>
+    <ion-side-menu side="right" is-enabled="viewer.iUserId && chatModule">
+        <chat-side-menu ng-if="viewer.iUserId && chatModule == 'chat'"></chat-side-menu>
+        <cometchat-side-menu ng-if="viewer.iUserId && chatModule == 'cometchat'"></cometchat-side-menu>
+        <ynchat-side-menu ng-if="viewer.iUserId && chatModule == 'ynchat'"></ynchat-side-menu>
+    </ion-side-menu>
+</ion-side-menus>
+<chat-ocn-dir ng-if="viewer.iUserId && chatModule == 'chat'"></chat-ocn-dir>
+<cometchat-ocn-dir ng-if="viewer.iUserId && chatModule == 'cometchat'"></cometchat-ocn-dir>
+<ynchat-ocn-dir ng-if="viewer.iUserId && chatModule == 'ynchat'"></ynchat-ocn-dir>

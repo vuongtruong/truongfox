@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="I:\wamp\www\2017\fox4.07\platforms\android\VolleyLib\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="I:\wamp\www\2017\fox4.07\platforms\android\VolleyLib\src\androidTest\assets"/><source path="I:\wamp\www\2017\fox4.07\platforms\android\VolleyLib\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

@@ -1,0 +1,18 @@
+<ion-header-bar align-title="center" class="bar-positive">
+	<button class="button icon-left ion-ios-arrow-left button-clear" back-dir ng-bind-html="getPrevPageTitle()"></button>
+	<h1 class="title" translate>Activity</h1>
+	<button class="button icon-right ion-android-more-vertical button-clear" ng-class="{disabled: !dataReady}" ng-click="onItemSetting()"></button>
+</ion-header-bar>
+<div class="bar bar-subheader bar-subheader2 bar-composer-top overflow-hidden" ng-if="item.canComment()">
+  <div class="tabs tabs-light tabs-icon-left">
+    <a class="tab-item" href="#/app/feed/add/default/{{item.getType()}}/{{item.getId()}}">
+      <i class="icon ion-edit"></i>
+    </a>
+    <a class="tab-item" href="#/app/feed/add/camera/{{item.getType()}}/{{item.getId()}}">
+      <i class="icon ion-android-camera"></i>
+    </a>
+  </div>
+</div>
+<ion-content overflow-scroll="true" class="content-dark has-subheader2" ng-class="{'has-subheader': item.canComment()}">
+	<activity-list-dir></activity-list-dir>
+</ion-content>
